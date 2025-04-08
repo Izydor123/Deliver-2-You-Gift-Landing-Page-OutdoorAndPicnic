@@ -23,10 +23,10 @@ function App() {
        link="https://generalcatalogue2025.eu/deliver2yougift/#page/513"/>
       <ProductsList 
         data={[
-        {id:1, text:"Lámpara Demil", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/513", image:image1},
-        {id:2, text:"Prismáticos Blidar", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/518", image:image2},
-        {id:3, text:"Barbacoa Hermut", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/524", image:image3},
-        {id:4, text:"Silla Nevera Sagan", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/526", image:image4},
+        {id:1, text:"Lampada Demil", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/513", image:image1},
+        {id:2, text:"Binoculos Blidar", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/518", image:image2},
+        {id:3, text:"Churrasco Hermut", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/524", image:image3},
+        {id:4, text:"Cadeira Bolsa Refrigeradoria Sagan", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/526", image:image4},
         ]}
         title="Outros produtos desta categoria"/>
       <Catalogue text="Conheça os nossos outros produtos associados à ao ar livre e piquenique" link="https://generalcatalogue2025.eu/deliver2yougift/#page/511  "/>
