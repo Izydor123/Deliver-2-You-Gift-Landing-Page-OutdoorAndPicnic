@@ -17,8 +17,8 @@ function App() {
       <Header title="Ao ar livre e piquenique" desc1="Descubra os melhores equipamentos para piqueniques e atividades ao ar livre!" desc2="Desde mantas e cestas estilosas até acessórios práticos, temos tudo o que você precisa para aproveitar a natureza com conforto e charme."/>
       <Product
        image={imageMain} 
-       title="Tienda Campaña Rebrax: Liberdade e Conforto na Natureza" 
-       desc1="A Tenda de Campanha Rebrax é o companheiro perfeito para aventureiros que buscam conforto e praticidade durante as suas explorações ao ar livre. Construída em poliéster 190T RPET, um material reciclado que demonstra compromisso com a sustentabilidade, esta tenda combina resistência com consciência ambiental."
+       title="Tenda Rebrax: Liberdade e Conforto na Natureza" 
+       desc1="A Tenda de Campanha Rebrax é o companheiro perfeito para aventureiros que buscam conforto durante as suas explorações ao ar livre. Construída em poliéster 190T RPET, um material reciclado que demonstra compromisso com a sustentabilidade, esta tenda combina resistência com consciência ambiental."
        desc2="Com dimensões generosas de 150 cm x 150 cm x 110 cm e pesando apenas 1100 gramas, oferece um espaço confortável e fácil de transportar. A sua estrutura pop-up permite uma montagem instantânea, eliminando a complexidade tradicionalmente associada à instalação de tendas."
        link="https://generalcatalogue2025.eu/deliver2yougift/#page/513"/>
       <ProductsList 
