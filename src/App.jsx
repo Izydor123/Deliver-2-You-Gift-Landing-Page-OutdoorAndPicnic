@@ -4,36 +4,32 @@ import Product from './components/Product'
 import ProductsList from './components/ProductsList'
 import Catalogue from './components/Catalogue'
 import Footer from './components/Footer'
-import imageMain from './assets/lamp.jpg'
-import image1 from './assets/zen.jpg'
-import image2 from './assets/difusor.jpg'
-import image3 from './assets/photo.jpg'
-import image4 from './assets/clock.jpg'
+import imageMain from './assets/tent.jpg'
+import image1 from './assets/lamp.jpg'
+import image2 from './assets/eyes.jpg'
+import image3 from './assets/grill.jpg'
+import image4 from './assets/backpack.jpg'
 
 function App() {
 
   return (
     <section className='app'>
-      <Header
-       title="Decoração e Estilo" 
-       desc1="Descubra a magia de criar ambientes únicos e acolhedores com a nossa coleção de produtos de decoração e estilo." 
-       desc2="Desde peças sofisticadas até elementos modernos e vibrantes, oferecemos tudo o que você precisa para dar vida aos seus espaços."/>
+      <Header title="Ao ar livre e piquenique" desc1="Descubra os melhores equipamentos para piqueniques e atividades ao ar livre!" desc2="Desde mantas e cestas estilosas até acessórios práticos, temos tudo o que você precisa para aproveitar a natureza com conforto e charme."/>
       <Product
        image={imageMain} 
-       title="Lampada Madison: Ilumine o seu espaço com estilo " 
-       desc1="A Lâmpada Madison é um exemplo eloquente do design contemporâneo. Com o seu perfil elegante em preto ou branco e base sólida, representa muito mais do que uma simples fonte de iluminação - é um verdadeiro elemento de decoração que transforma ambientes."
-       desc2="Compacta e versátil, com apenas 26 cm de altura, este candeeiro combina funcionalidade e estética de forma magistral. O seu design minimalista adapta-se harmoniosamente a diversos espaços, desde uma mesa de cabeceira moderna até um escritório contemporâneo ou um ambiente de estar sofisticado."
-       link="https://generalcatalogue2025.eu/deliver2yougift/#page/550"/>
+       title="Tenda Rebrax: Liberdade e Conforto na Natureza" 
+       desc1="A Tenda de Campanha Rebrax é o companheiro perfeito para aventureiros que buscam conforto durante as suas explorações ao ar livre. Construída em poliéster 190T RPET, um material reciclado que demonstra compromisso com a sustentabilidade, esta tenda combina resistência com consciência ambiental."
+       desc2="Com dimensões generosas de 150 cm x 150 cm x 110 cm e pesando apenas 1100 gramas, oferece um espaço confortável e fácil de transportar. A sua estrutura pop-up permite uma montagem instantânea, eliminando a complexidade tradicionalmente associada à instalação de tendas."
+       link="https://generalcatalogue2025.eu/deliver2yougift/#page/513"/>
       <ProductsList 
         data={[
-        {id:1, text:"Mini Jardim Zen Azumy", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/554", image:image1},
-        {id:2, text:"Difusor Aromático Kenet", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/557", image:image2},
-        {id:3, text:"Moldura Fotos Digital Picty", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/561", image:image3},
-        {id:4, text:"Relogio Graox", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/563", image:image4},
+        {id:1, text:"Lampada Demil", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/513", image:image1},
+        {id:2, text:"Binoculos Blidar", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/518", image:image2},
+        {id:3, text:"Churrasco Hermut", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/524", image:image3},
+        {id:4, text:"Cadeira Bolsa Refrigeradoria Sagan", link:"https://generalcatalogue2025.eu/deliver2yougift/#page/526", image:image4},
         ]}
         title="Outros produtos desta categoria"/>
-      <Catalogue
-       text="Conheça os nossos outros produtos associados os decoração e estilo" link="https://generalcatalogue2025.eu/deliver2yougift/#page/550"/>
+      <Catalogue text="Conheça os nossos outros produtos associados à ao ar livre e piquenique" link="https://generalcatalogue2025.eu/deliver2yougift/#page/511  "/>
       <Footer/>
     </section>
   )
